@@ -1,0 +1,4 @@
+select actor_id, first_name, last_name
+from actor a 
+where (last_name) = 'WILLIAMS'
+or (last_name) = 'DAVIS';
