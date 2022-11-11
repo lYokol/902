@@ -1,7 +1,0 @@
-select actor_id, first_name, last_name
-from actor a 
-order by last_name;
-
-select actor_id, first_name, last_name
-from actor a 
-order by first_name;
