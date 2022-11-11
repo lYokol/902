@@ -1,0 +1,6 @@
+use sakila;
+select a.address_id, a.address
+from address a 
+inner join address a2
+on a2.address_id = a.address_id
+where a2.address = a.address;
